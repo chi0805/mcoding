@@ -79,6 +79,27 @@
                             <p class="text">HTML/CSSコーディングと切っても切れないwebブラウザのシェア動向をチェックしよう</p>
                         </a>
                     </li>
+                    <li class="ranking-item">
+                        <a href="#">
+                            <img class="iamge" src="../mcoding/standard-layout/images/ranking.jpg" alt="グラフの画像">
+                            <span class="order"></span>
+                            <p class="text">HTML/CSSコーディングと切っても切れないwebブラウザのシェア動向をチェックしよう</p>
+                        </a>
+                    </li>
+                    <li class="ranking-item">
+                        <a href="#">
+                            <img class="iamge" src="../mcoding/standard-layout/images/ranking.jpg" alt="グラフの画像">
+                            <span class="order"></span>
+                            <p class="text">HTML/CSSコーディングと切っても切れないwebブラウザのシェア動向をチェックしよう</p>
+                        </a>
+                    </li>
+                    <li class="ranking-item">
+                        <a href="#">
+                            <img class="iamge" src="../mcoding/standard-layout/images/ranking.jpg" alt="グラフの画像">
+                            <span class="order"></span>
+                            <p class="text">HTML/CSSコーディングと切っても切れないwebブラウザのシェア動向をチェックしよう</p>
+                        </a>
+                    </li>
                 </ol>
             </div>
         </div>
