@@ -30,7 +30,7 @@
                     <div class="content">
                         <h3 class="title">実務で使えるHTML/CSS<br>モダンコーディングTIPS</h3>
                         <p class="desc">Webフロントエンドの進化の勢いはとどまるとことを知りません。新しい要素が増えて大幅に表現力が広がったHTML5/CSS3を活用して...
-                        <time class="date" datetime="2015-09-01">2015.09.01 Tue</time>
+                        <time class="date" datetime="2015-09-01">2015.09.01 TUE</time>
                     </div>
                 </a>
                 <h2 class="heading">NEWS</h2>
@@ -101,9 +101,49 @@
                         </a>
                     </li>
                 </ol>
-            </div>
+                <h2 class="heading">DOCUMENT</h3>
+                <ul class="documents">
+                <li>
+                    <h3 class="title">HTML5</h3>
+                    <ul>
+                        <li><a href="#">追加された要素</a></li>
+                        <li><a href="#">削除された要素</a></li>
+                        <li><a href="#">意味が変わった要素</a></li>
+                        <li><a href="#">HTML5のコンテンツモデル</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="title">CSS3</h3>
+                    <ul>
+                        <li><a href="#">追加されたプロパティ</a></li>
+                        <li><a href="#">削除されたセレクタ</a></li>
+                        <li><a href="#">追加された単位</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="title">JavaScript</h3>
+                    <ul>
+                        <li><a href="#">JavaScriptの言語仕様</a></li>
+                        <li><a href="#">ECMAScriptとは？</a></li>
+                        <li><a href="#">jQueryとは？</a></li>
+                    </ul>
+                </li>
+                <h2 class="hidden">SEARCH</h2>
+                <form class="search-box">
+                    <input class="search-input" type="text" name="search" placeholder="SEARCH">
+                    <input class="search-button" type="submit" value="検索">
+                    <p class="text">サイト内の文章を検索できます</p>
+                </form>
+                </div>
         </div>
         <footer class="footer">
+            <ul class="horizontal-list">
+                <li class="horizontal-item"><a href="#">ABOUT ME</a></li>
+                <li class="horizontal-item"><a href="#">SITE MAP</a></li>
+                <li class="horizontal-item"><a href="#">SNS</a></li>
+                <li class="horizontal-item"><a href="#">CONTACT</a></li>
+            </ul>
+            <p class="copyright">Copyright © 2015 SAMPLE SITE</p>
         </footer>
     </body>
 </html>
