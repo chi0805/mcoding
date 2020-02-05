@@ -35,5 +35,14 @@
         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </a>
     </section>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.js"></script>
+    <script>
+        new Masonry('body', {
+            itemSelector: '.item',
+            columnWidth: 180,
+            gutter: 4
+        });
+    </script>
+
 </body>
 </html>
