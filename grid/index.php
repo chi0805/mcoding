@@ -46,28 +46,28 @@
         <a href="#">
         <img class="image" src="images/image_S_6.jpg" alt="おやつの時間">
         <div class="category">BREAK TIME</div>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </a>
     </section>
     <section class="item item-maindish">
         <a href="#">
         <img class="image" src="images/image_S_7.jpg" alt="メインディッシュ">
         <div class="category">MAIN DISH</div>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
         </a>
     </section>
     <section class="item item-breaktime">
         <a href="#">
         <img class="image" src="images/image_S_8.jpg" alt="おやつの時間">
         <div class="category">BREAK TIME</div>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
         </a>
     </section>
     <section class="item item-column">
         <a href="#">
         <img class="image" src="images/image_S_9.jpg" alt="コラム">
         <div class="category">COLUMN</div>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </a>
     </section>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.js"></script>
@@ -75,7 +75,7 @@
         <a href="#">
         <img class="image" src="images/image_S_10.jpg" alt="メインディッシュ">
         <div class="category">MAIN DISH</div>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </a>
     </section>
     <script>
