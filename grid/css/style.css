@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+/* --------------------------------
+ * base
+ * -------------------------------- */
+
 html {
     font-size: 62.5%;
 }
@@ -21,6 +25,10 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
+/* --------------------------------
+ * item
+ * -------------------------------- */
+
 .item {
     width: 180px;
     margin-bottom: 4px;
@@ -33,6 +41,7 @@ a:link, a:visited, a:hover, a:active {
 .item .image {
     display: block;
     width: 100%;
+    height: 109px;
 }
 
 .item .category {
@@ -90,4 +99,20 @@ a:link, a:visited, a:hover, a:active {
 .item-breaktime,
 .item-breaktime .category::before {
     border-color: #C1EFFF;
+}
+
+.item-m {
+    width: 364px;
+}
+
+.item-m .image {
+    height: 146px;
+}
+
+.item-l {
+    width: 732px;
+}
+
+.item-l .image {
+    height: 403px;
 }
