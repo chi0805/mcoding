@@ -76,7 +76,7 @@ header
 
 
 /*-----------------------
-section
+about
 -----------------------*/
 .about {
     padding: 80px 30px;
@@ -111,4 +111,28 @@ section
 .about-text {
     margin: 30px 0;
     line-height: 2.5;
+}
+
+/*-----------------------
+works
+-----------------------*/
+.works {
+    background-color: #383634;
+    padding: 80px 0;
+}
+
+.works-wrapper {
+    display: table;
+    width: 100%;
+    margin-top: 60px;
+    table-layout: fixed;
+}
+
+.work-box {
+    display: table-cell;
+}
+
+.work-image {
+    display: block;
+    width: 100%;
 }
