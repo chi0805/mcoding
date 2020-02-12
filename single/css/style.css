@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: #151515 url('../image/bg.png') no-repeat fixed left bottom;
+    background: #151515 url('../images/bg.png') no-repeat fixed left bottom;
     background-size: cover;
     color: #fff;
     font-size: 1.4rem;
@@ -304,4 +304,9 @@ contact
 .contact-form input[type=text]:focus,
 .contact-form textarea:focus {
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.5) inset;
+}
+
+.footer {
+    padding: 12px 0;
+    font-size: 1.3rem;
 }
