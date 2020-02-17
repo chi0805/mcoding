@@ -132,6 +132,8 @@ works
 .work-box {
     position: relative;
     display: table-cell;
+    overflow: hidden;
+    transition: 1s 
 }
 
 .work-box::after {
@@ -144,6 +146,7 @@ works
     background: no-repeat;
     background-size: 100% 100%;
     opacity: 0.2;
+    -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
 }
 
@@ -167,6 +170,13 @@ works
     display: block;
     width: 100%;
     margin: 0 0 60%;
+    transition: all 1s ease;
+}
+
+.work-box:hover 
+.work-image {
+    -webkit-transform: scaleY(1.1) translateY(-9px);
+    transform: scale(1.1) translateY(-9px);
 }
 
 .work-description {
@@ -207,6 +217,11 @@ works
 
 .work-box:nth-child(odd) .work-image {
     margin: 60% 0 0;
+}
+
+.work-box:nth-child(odd):hover .work-image {
+    -webkit-transform: scaleY(1.1) translateY(7.5px);
+    transform: scale(1.1) translateY(7.5px);
 }
 
 .work-box:nth-child(odd) .work-description,
@@ -316,7 +331,7 @@ contact
 /*-----------------------
 media
 -----------------------*/
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     .site-title-sub::before,
     .site-title-sub::after {
         display: block;
